@@ -1,2 +1,4 @@
 17:26:48::first log message
 17:26:48::/home/fzc/rpc/example/callee/friend_service.cc:main:51
+21:29:39::first log message
+21:29:39::/home/fzc/rpc/example/callee/friend_service.cc:main:51
