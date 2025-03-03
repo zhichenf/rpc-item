@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package fixbug;
+
+option cc_generic_services = true;
+
+message ResultCode {
+    int32 errcode = 1;
+    bytes errmsg = 2;
+}
+
+//登录请求的参数
+message LoginRequest {
+    bytes name = 1;
+    bytes pwd = 2;
+}
+
+//登录请求的返回值
+message LoginResponse {
+    ResultCode result = 1;
+    bool success = 2;
+}
+
+//注册请求的参数
+message RegisterRequest {
+    uint32 id = 1;
+    bytes name = 2;
+    bytes pwd = 3;
+}
+
+//注册请求的返回值
+message RegisterResponse {
+    ResultCode result = 1;
+    bool success = 2;
+}
+
+//哪些服务调用都有哪些方法，以及方法的参数和返回值
+service UserServiceRpc {
+    rpc Login(LoginRequest) returns(LoginResponse);
+    rpc Register(RegisterRequest) returns(RegisterResponse);
+}
