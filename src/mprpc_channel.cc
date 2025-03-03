@@ -13,6 +13,7 @@
 #include "rpcheader.pb.h"
 #include "mprpc_application.h"
 #include "mprpc_controller.h"
+#include "zookeeper_util.h"
 
 class FdGuard {
 public:
@@ -84,8 +85,23 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
 
     struct sockaddr_in server_addr;
 
-    std::string ip = MprpcApplication::GetInstance().GetConfigure().Load("rpcserverip");
-    uint16_t port = atoi(MprpcApplication::GetInstance().GetConfigure().Load("rpcserverport").c_str());
+    // std::string ip = MprpcApplication::GetInstance().GetConfigure().Load("rpcserverip");
+    // uint16_t port = atoi(MprpcApplication::GetInstance().GetConfigure().Load("rpcserverport").c_str());
+
+    //使用zookeeper找到发布服务的服务器
+    ZkClient zk_client;
+    zk_client.Start();
+
+    std::string method_path = "/" + service_name + "/" + method_name;
+    std::string host_data = zk_client.GetData(method_path.c_str());
+    int idx = host_data.find(":");
+    if (idx == -1) {
+        controller->SetFailed(method_path + "address is invalid!");
+        return;
+    }
+
+    std::string ip = host_data.substr(0,idx);
+    uint16_t port = atoi(host_data.substr(idx+1).c_str());
 
     server_addr.sin_family = AF_INET;
     server_addr.sin_port = htons(port);

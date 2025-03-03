@@ -4,7 +4,7 @@
 
 #include "public/friend.pb.h"
 #include "mprpc_application.h"
-#include "rpc_provider.h"
+#include "mprpc_provider.h"
 #include "logger.h"
 
 //原来是一个本地服务，提供了两个进程内的本地方法
@@ -53,7 +53,7 @@ int main(int argc, char** argv) {       //使用框架的案例
     //调用框架的初始化操作
     MprpcApplication::Init(argc, argv);
 
-    RpcProvider provider;       //生成一个服务提供者
+    MprpcProvider provider;       //生成一个服务提供者
 
     //服务器初始化有这里提供哪些服务
     provider.NotifyService(std::make_shared<FriendService>());

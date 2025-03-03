@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/provider.dir/friend_service.cc.o CMakeFiles/provider.dir/__/public/friend.pb.cc.o -o ../../../bin/provider   -L/home/fzc/rpc/lib  -Wl,-rpath,/home/fzc/rpc/lib ../../../lib/libmprpc.a -lprotobuf -lpthread -lmuduo_net -lmuduo_base 
+/usr/bin/c++ -rdynamic CMakeFiles/provider.dir/friend_service.cc.o CMakeFiles/provider.dir/__/public/friend.pb.cc.o -o ../../../bin/provider   -L/home/fzc/rpc/lib  -Wl,-rpath,/home/fzc/rpc/lib ../../../lib/libmprpc.a -lprotobuf -lpthread -lmuduo_net -lmuduo_base -lzookeeper_mt 

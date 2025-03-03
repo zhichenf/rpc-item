@@ -274,29 +274,29 @@ mprpc_controller.cc.s:
 	cd /home/fzc/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpc_controller.cc.s
 .PHONY : mprpc_controller.cc.s
 
-rpc_provicer.o: rpc_provicer.cc.o
-.PHONY : rpc_provicer.o
+mprpc_provicer.o: mprpc_provicer.cc.o
+.PHONY : mprpc_provicer.o
 
 # target to build an object file
-rpc_provicer.cc.o:
-	cd /home/fzc/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpc_provicer.cc.o
-.PHONY : rpc_provicer.cc.o
+mprpc_provicer.cc.o:
+	cd /home/fzc/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpc_provicer.cc.o
+.PHONY : mprpc_provicer.cc.o
 
-rpc_provicer.i: rpc_provicer.cc.i
-.PHONY : rpc_provicer.i
+mprpc_provicer.i: mprpc_provicer.cc.i
+.PHONY : mprpc_provicer.i
 
 # target to preprocess a source file
-rpc_provicer.cc.i:
-	cd /home/fzc/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpc_provicer.cc.i
-.PHONY : rpc_provicer.cc.i
+mprpc_provicer.cc.i:
+	cd /home/fzc/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpc_provicer.cc.i
+.PHONY : mprpc_provicer.cc.i
 
-rpc_provicer.s: rpc_provicer.cc.s
-.PHONY : rpc_provicer.s
+mprpc_provicer.s: mprpc_provicer.cc.s
+.PHONY : mprpc_provicer.s
 
 # target to generate assembly for a file
-rpc_provicer.cc.s:
-	cd /home/fzc/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpc_provicer.cc.s
-.PHONY : rpc_provicer.cc.s
+mprpc_provicer.cc.s:
+	cd /home/fzc/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpc_provicer.cc.s
+.PHONY : mprpc_provicer.cc.s
 
 rpcheader.pb.o: rpcheader.pb.cc.o
 .PHONY : rpcheader.pb.o
@@ -321,6 +321,30 @@ rpcheader.pb.s: rpcheader.pb.cc.s
 rpcheader.pb.cc.s:
 	cd /home/fzc/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.s
 .PHONY : rpcheader.pb.cc.s
+
+zookeeper_util.o: zookeeper_util.cc.o
+.PHONY : zookeeper_util.o
+
+# target to build an object file
+zookeeper_util.cc.o:
+	cd /home/fzc/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeper_util.cc.o
+.PHONY : zookeeper_util.cc.o
+
+zookeeper_util.i: zookeeper_util.cc.i
+.PHONY : zookeeper_util.i
+
+# target to preprocess a source file
+zookeeper_util.cc.i:
+	cd /home/fzc/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeper_util.cc.i
+.PHONY : zookeeper_util.cc.i
+
+zookeeper_util.s: zookeeper_util.cc.s
+.PHONY : zookeeper_util.s
+
+# target to generate assembly for a file
+zookeeper_util.cc.s:
+	cd /home/fzc/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeper_util.cc.s
+.PHONY : zookeeper_util.cc.s
 
 # Help Target
 help:
@@ -349,12 +373,15 @@ help:
 	@echo "... mprpc_controller.o"
 	@echo "... mprpc_controller.i"
 	@echo "... mprpc_controller.s"
-	@echo "... rpc_provicer.o"
-	@echo "... rpc_provicer.i"
-	@echo "... rpc_provicer.s"
+	@echo "... mprpc_provicer.o"
+	@echo "... mprpc_provicer.i"
+	@echo "... mprpc_provicer.s"
 	@echo "... rpcheader.pb.o"
 	@echo "... rpcheader.pb.i"
 	@echo "... rpcheader.pb.s"
+	@echo "... zookeeper_util.o"
+	@echo "... zookeeper_util.i"
+	@echo "... zookeeper_util.s"
 .PHONY : help
 
 

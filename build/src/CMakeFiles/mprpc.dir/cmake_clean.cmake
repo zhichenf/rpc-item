@@ -13,10 +13,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/mprpc.dir/mprpc_configure.cc.o.d"
   "CMakeFiles/mprpc.dir/mprpc_controller.cc.o"
   "CMakeFiles/mprpc.dir/mprpc_controller.cc.o.d"
-  "CMakeFiles/mprpc.dir/rpc_provicer.cc.o"
-  "CMakeFiles/mprpc.dir/rpc_provicer.cc.o.d"
+  "CMakeFiles/mprpc.dir/mprpc_provicer.cc.o"
+  "CMakeFiles/mprpc.dir/mprpc_provicer.cc.o.d"
   "CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
   "CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.d"
+  "CMakeFiles/mprpc.dir/zookeeper_util.cc.o"
+  "CMakeFiles/mprpc.dir/zookeeper_util.cc.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

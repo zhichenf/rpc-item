@@ -73,29 +73,29 @@ example/caller/CMakeFiles/caller.dir/call_friend_service.cc.o: example/caller/CM
 example/caller/CMakeFiles/caller.dir/call_friend_service.cc.o: ../example/caller/call_friend_service.cc
 example/caller/CMakeFiles/caller.dir/call_friend_service.cc.o: example/caller/CMakeFiles/caller.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fzc/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/caller/CMakeFiles/caller.dir/call_friend_service.cc.o"
-	cd /home/fzc/rpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/caller.dir/call_friend_service.cc.o -MF CMakeFiles/caller.dir/call_friend_service.cc.o.d -o CMakeFiles/caller.dir/call_friend_service.cc.o -c /home/fzc/rpc/example/caller/call_friend_service.cc
+	cd /home/fzc/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/caller.dir/call_friend_service.cc.o -MF CMakeFiles/caller.dir/call_friend_service.cc.o.d -o CMakeFiles/caller.dir/call_friend_service.cc.o -c /home/fzc/rpc/example/caller/call_friend_service.cc
 
 example/caller/CMakeFiles/caller.dir/call_friend_service.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caller.dir/call_friend_service.cc.i"
-	cd /home/fzc/rpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fzc/rpc/example/caller/call_friend_service.cc > CMakeFiles/caller.dir/call_friend_service.cc.i
+	cd /home/fzc/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fzc/rpc/example/caller/call_friend_service.cc > CMakeFiles/caller.dir/call_friend_service.cc.i
 
 example/caller/CMakeFiles/caller.dir/call_friend_service.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caller.dir/call_friend_service.cc.s"
-	cd /home/fzc/rpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fzc/rpc/example/caller/call_friend_service.cc -o CMakeFiles/caller.dir/call_friend_service.cc.s
+	cd /home/fzc/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fzc/rpc/example/caller/call_friend_service.cc -o CMakeFiles/caller.dir/call_friend_service.cc.s
 
 example/caller/CMakeFiles/caller.dir/__/public/friend.pb.cc.o: example/caller/CMakeFiles/caller.dir/flags.make
 example/caller/CMakeFiles/caller.dir/__/public/friend.pb.cc.o: ../example/public/friend.pb.cc
 example/caller/CMakeFiles/caller.dir/__/public/friend.pb.cc.o: example/caller/CMakeFiles/caller.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fzc/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/caller.dir/__/public/friend.pb.cc.o"
-	cd /home/fzc/rpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/caller.dir/__/public/friend.pb.cc.o -MF CMakeFiles/caller.dir/__/public/friend.pb.cc.o.d -o CMakeFiles/caller.dir/__/public/friend.pb.cc.o -c /home/fzc/rpc/example/public/friend.pb.cc
+	cd /home/fzc/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/caller.dir/__/public/friend.pb.cc.o -MF CMakeFiles/caller.dir/__/public/friend.pb.cc.o.d -o CMakeFiles/caller.dir/__/public/friend.pb.cc.o -c /home/fzc/rpc/example/public/friend.pb.cc
 
 example/caller/CMakeFiles/caller.dir/__/public/friend.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caller.dir/__/public/friend.pb.cc.i"
-	cd /home/fzc/rpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fzc/rpc/example/public/friend.pb.cc > CMakeFiles/caller.dir/__/public/friend.pb.cc.i
+	cd /home/fzc/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fzc/rpc/example/public/friend.pb.cc > CMakeFiles/caller.dir/__/public/friend.pb.cc.i
 
 example/caller/CMakeFiles/caller.dir/__/public/friend.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caller.dir/__/public/friend.pb.cc.s"
-	cd /home/fzc/rpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fzc/rpc/example/public/friend.pb.cc -o CMakeFiles/caller.dir/__/public/friend.pb.cc.s
+	cd /home/fzc/rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fzc/rpc/example/public/friend.pb.cc -o CMakeFiles/caller.dir/__/public/friend.pb.cc.s
 
 # Object files for target caller
 caller_OBJECTS = \

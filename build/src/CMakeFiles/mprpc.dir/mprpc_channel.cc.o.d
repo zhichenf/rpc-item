@@ -313,4 +313,12 @@ src/CMakeFiles/mprpc.dir/mprpc_channel.cc.o: \
  /home/fzc/rpc/src/include/mprpc_configure.h \
  /home/fzc/rpc/src/include/mprpc_channel.h \
  /home/fzc/rpc/src/include/mprpc_controller.h \
- /home/fzc/rpc/src/include/mprpc_controller.h
+ /home/fzc/rpc/src/include/mprpc_controller.h \
+ /home/fzc/rpc/src/include/zookeeper_util.h /usr/include/semaphore.h \
+ /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+ /usr/local/include/zookeeper/zookeeper.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/zookeeper/proto.h \
+ /usr/local/include/zookeeper/zookeeper_version.h \
+ /usr/local/include/zookeeper/recordio.h \
+ /usr/local/include/zookeeper/zookeeper.jute.h

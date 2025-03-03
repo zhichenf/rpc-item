@@ -14,8 +14,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/fzc/rpc/src/mprpc_channel.cc" "src/CMakeFiles/mprpc.dir/mprpc_channel.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpc_channel.cc.o.d"
   "/home/fzc/rpc/src/mprpc_configure.cc" "src/CMakeFiles/mprpc.dir/mprpc_configure.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpc_configure.cc.o.d"
   "/home/fzc/rpc/src/mprpc_controller.cc" "src/CMakeFiles/mprpc.dir/mprpc_controller.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpc_controller.cc.o.d"
-  "/home/fzc/rpc/src/rpc_provicer.cc" "src/CMakeFiles/mprpc.dir/rpc_provicer.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/rpc_provicer.cc.o.d"
+  "/home/fzc/rpc/src/mprpc_provicer.cc" "src/CMakeFiles/mprpc.dir/mprpc_provicer.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpc_provicer.cc.o.d"
   "/home/fzc/rpc/src/rpcheader.pb.cc" "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.d"
+  "/home/fzc/rpc/src/zookeeper_util.cc" "src/CMakeFiles/mprpc.dir/zookeeper_util.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/zookeeper_util.cc.o.d"
   )
 
 # Targets to which this target links.
